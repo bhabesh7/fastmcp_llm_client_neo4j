@@ -6,19 +6,19 @@ GIT instructions to push the local project to Git hub repo for first time
 
 cd path/to/fastmcp_neo_server
 
-# Initialize git (if not already done)
+### Initialize git (if not already done)
 git init
 
-# Add all files (respecting .gitignore)
+### Add all files (respecting .gitignore)
 git add .
 
-# First commit
+### First commit
 git commit -m "Initial commit"
 
-# Link to GitHub (replace YOUR_USERNAME with your GitHub username)
+### Link to GitHub (replace YOUR_USERNAME with your GitHub username)
 git remote add origin https://github.com/YOUR_USERNAME/fastmcp_neo_server.git
 
-# Set the branch to main and push
+### Set the branch to main and push
 git branch -M main
 git push -u origin main
 

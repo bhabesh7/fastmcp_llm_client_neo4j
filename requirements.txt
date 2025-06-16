@@ -1,0 +1,5 @@
+fastmcp
+httpx
+asyncio
+transformers
+torch
